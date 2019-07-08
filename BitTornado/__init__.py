@@ -1,7 +1,5 @@
 product_name = 'BitTornado'
-version_short = 'T-0.4.1'
-
-version = version_short + ' (' + product_name + ')'
+version = '0.4.1'
 report_url = 'https://github.com/effigies/BitTornado/issues/new'
 
 __author__ = """
@@ -15,4 +13,4 @@ __credits__ = """
 Yejun Yang and Myers Carpenter for NAT port mapping code adapted
     in natpunch
 """
-__version__ = version_short
+__version__ = version

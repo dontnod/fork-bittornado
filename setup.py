@@ -4,7 +4,7 @@ from distutils.core import setup
 import BitTornado
 
 setup(
-    name="BitTornado",
+    name="bittornado",
     version=BitTornado.version,
     author="Chris Markiewicz, Bram Cohen, John Hoffman, Uoti Arpala et. al.",
     author_email="<effigies@gmail.com>",
