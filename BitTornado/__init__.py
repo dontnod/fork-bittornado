@@ -1,7 +1,11 @@
 product_name = 'BitTornado'
-version_short = 'T-0.4.1'
+# This legacy version is no longer accepted with newer setuptools version
+# https://peps.python.org/pep-0440/
+# version_short = 'T-0.4.1'
+version_short = '0.4.1'
 
-version = version_short + ' (' + product_name + ')'
+# version = version_short + ' (' + product_name + ')'
+version = version_short + '.dev'
 report_url = 'https://github.com/effigies/BitTornado/issues/new'
 
 __author__ = """
